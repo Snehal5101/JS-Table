@@ -1,0 +1,20 @@
+#table{
+    margin:30px;
+    
+ 
+}
+
+
+table{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+td,th{
+    margin: 10px;
+    padding: 8px;
+    border: 2px solid black;
+    text-align: center;
+
+}
