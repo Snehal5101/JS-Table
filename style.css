@@ -1,20 +1,74 @@
-#table{
-    margin:30px;
+#navbar{
+    margin: 30px;
+    padding: 20px;
+    background-color: black;
+   
+}
+
+.nav{
+    margin:5px;
+    padding:5px;
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
     
- 
+}
+
+.nav:hover{
+    background-color:gray;
+}
+
+#circle {
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+   
 }
 
 
-table{
-    margin: 5px;
-    padding: 5px;
+#circle1, #circle2{
+    margin:40px;
+    /* background-color:red; */
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+
+#table{
+    margin:50px;
     border: 2px solid black;
 }
 
-td,th{
+
+#tbody{
+ 
+    border: 2px solid black;
+    text-align: center;
+}
+
+th,tr,td{
     margin: 10px;
     padding: 8px;
     border: 2px solid black;
     text-align: center;
 
 }
+
+#age {
+    margin: 20px;
+    padding: 10px;
+    height: 25px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+#agedemo{
+    margin: 5px;
+    padding: 5px;
+    
+}
+

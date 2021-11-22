@@ -9,7 +9,54 @@
     <link rel="stylesheet" href="./style.css" type="text/css" >
 </head>
 <body>
-    <div id ="table"> </div>
+
+    <header>
+          <nav id="navbar">
+              <a href="" class="nav">Home</a>
+              <a href="" class="nav">about</a>
+              <a href="" class="nav">contact</a>
+          </nav>   
+    </header>
+<hr>
+    <section id = "circle">
+      <div id ="circle1">
+      </div>  
+      <div id ="circle2">
+    </div>  
+    </section>
+<hr>
+    <section>
+        <table  id ="table" >
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Hometown</th>
+                </tr>
+                
+            </thead> 
+            <tbody id="tbody">
+                
+            </tbody>
+
+        </table>
+        
+    </section>
+
+    <section >
+        <div id="newarr"></div>
+    </section>
+<hr>
+    <section>
+        <form action="#"onSubmit="return checkForm(this);">
+        <input type="number" id="age" name="inputage" value="" required placeholder="Enter your age" />
+       <input type="submit">
+        </form>
+      
+            <h2 id="agedemo"></h2>
+      
+    </section>
+
 
     <script src="./app.js"></script>
 </body>
